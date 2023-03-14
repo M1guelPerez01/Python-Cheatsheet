@@ -57,3 +57,12 @@ def f(x):
 def g(y):
     return 1+y
 
+g(f(4))
+f(g(4))
+
+#Delete From Array
+a = [1,2,3,4,5]
+a.pop()
+a
+
+#
