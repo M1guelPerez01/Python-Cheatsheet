@@ -50,3 +50,4 @@ for i in range(len(a)):
 for x in a:
     print(x)
 
+#Multiple Functions
