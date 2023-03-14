@@ -51,3 +51,9 @@ for x in a:
     print(x)
 
 #Multiple Functions
+def f(x):
+    return 2*X
+
+def g(y):
+    return 1+y
+
