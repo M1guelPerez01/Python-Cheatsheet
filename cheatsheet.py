@@ -27,3 +27,26 @@ if x+1 == 3:
 for i in range(1,100):
     if i%2 == 0:
         print(i)
+
+#Importing
+import math
+math.sqrt(144)
+
+import time
+time.ctime()
+
+#Arrays
+a = [1,2,3,4]
+a
+a.append(8)
+a
+
+#Looping Through Arrays In 2 Different Ways
+#Old Way
+for i in range(len(a)):
+    print(a[i])
+
+#New Way
+for x in a:
+    print(x)
+
