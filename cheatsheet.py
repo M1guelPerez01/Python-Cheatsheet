@@ -65,4 +65,12 @@ a = [1,2,3,4,5]
 a.pop()
 a
 
+#and/or
+x = 5
+y = 3
+if x > 2 and y < 9:
+    print(2)
+if x > 2 or y < 10:
+    print(2)
+
 #
