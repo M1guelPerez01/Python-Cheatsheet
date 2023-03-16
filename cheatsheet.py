@@ -73,4 +73,14 @@ if x > 2 and y < 9:
 if x > 2 or y < 10:
     print(2)
 
-#
+#Get Element From String Or Array
+s = "how are you"
+print(s[5])
+a = [2,4,6,8]
+a[3]
+
+# Get First And Last Element From String Or Array
+a = [2,4,6,8]
+print(a[-1])
+a[0]
+
