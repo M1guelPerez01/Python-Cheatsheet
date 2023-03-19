@@ -33,3 +33,7 @@ print(x)
 'if false'
 print(x)
 ...
+
+#loops
+print(i)
+'prints out even numbers'
