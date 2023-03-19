@@ -152,4 +152,37 @@ for k in d.keys():
 for k in d.values():
     print(x)
 
-# Data Science
+# Data Science (getting bitcoin data using yahoo finance)
+
+# Get Data
+# Get Ticker object
+btc = yf.Ticker("BTC-USD")
+# Get Historical Market Data
+df = btc.history(period="max")
+df
+
+# View Data
+df
+df.head()
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+df
+df.tail()
+df = df.reset_index(drop = False)
+
+# Plot Data
+df.plot(x = "Date", y = "Close")
+plt.show()
+
+# Simplify Data
+df = df[['Date', 'Close']]
+df.head()
+df = df.rename(columns = {'Date':'date', 'Close':'close'})
+df.head()
+
+# Manipulate Data
+df['ret'] = df.close.shift(-1)/df.close - 1
+df
+df.tail()
+
+#
