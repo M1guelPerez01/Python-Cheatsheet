@@ -119,4 +119,37 @@ s
 s.add(3)
 s
 
-#
+# F-Strings
+name = "Enigma"
+# Instead Of This
+"my name is" + name + "nice to meet you."
+
+# Use This
+f"my name is {name} nice to meet you"
+
+# In Opperator
+a = [1,2,3,4]
+for x in a:
+    print(x)
+
+# List Comprehension
+a = [1,2,3]
+[3*x for x in a]
+
+# Exponents And Division
+5**2
+5/2
+5//2
+
+# Iterator Through Dictionary
+d = {1:5,2:15}
+for k in d:
+    print(k)
+
+for k in d.keys():
+    print(x)
+
+for k in d.values():
+    print(x)
+
+# Data Science
