@@ -84,4 +84,39 @@ a = [2,4,6,8]
 print(a[-1])
 a[0]
 
+# Change Directory And Get Current Directory
+import os
+os.getcwd()[:]
+
+os.chdir("/")
+
+# Data Types: String(s), Float(f), Bool(b)
+s = "abc"
+f = 1.0
+b = True
+n = None
+
+# Data Casting
+f = float("1")
+s = str(1)
+
+# String Operations
+s = "abc"
+S1 = s.upper()
+S2 = s.capitalize()
+s[0] = "d" #Not Possible
+
+# Tuples
+x = (1,2,3)
+y = [1,2,3]
+y[0] = 4
+x[0] = 4
+
+# Sets
+s = set([1,2,3])
+s.add(4)
+s
+s.add(3)
+s
+
 #
