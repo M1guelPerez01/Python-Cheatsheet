@@ -12,6 +12,19 @@ z
 z = z [1:3]
 z
 
+#Reversing A String
+s = "ShibaInuTax"
+s = s[::-1]
+s
+
+#Getting Part Of A String
+s[:5]
+s[6:10]
+s[8:]
+
+#Check If Text Is In String
+"Shiba1" in s
+
 #Functions
 def f(X):
     y = x+2
