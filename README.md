@@ -38,4 +38,10 @@ print(x)
 print(i)
 'prints out even numbers'
 
+#arrays
+[1,2,3,4,8]
 
+#looping through arrays two different ways
+1,2,3,4,8
+
+#
